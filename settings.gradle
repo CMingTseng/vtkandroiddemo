@@ -1,3 +1,4 @@
+rootProject.name = "VTK_Android_Demo"
 include ':VTK3DEarth'
 project(":VTK3DEarth").projectDir = file("./VTK3DEarth/app")
 include ':VolumeRender'
@@ -6,3 +7,5 @@ include ':JavaVTK2'
 project(":JavaVTK2").projectDir = file("./JavaVTK2/app")
 include ':demo1'
 project(":demo1").projectDir = file("./demo1/app")
+include ':vtk-build'
+project(":vtk-build").projectDir = file("./vtk-build/app")
