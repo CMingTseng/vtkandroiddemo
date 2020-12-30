@@ -1,0 +1,8 @@
+include ':VTK3DEarth'
+project(":VTK3DEarth").projectDir = file("./VTK3DEarth/app")
+include ':VolumeRender'
+project(":VolumeRender").projectDir = file("./VolumeRender/app")
+include ':JavaVTK2'
+project(":JavaVTK2").projectDir = file("./JavaVTK2/app")
+include ':demo1'
+project(":demo1").projectDir = file("./demo1/app")
